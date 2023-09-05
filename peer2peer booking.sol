@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "./P2P payment.sol";
 
-contract CarPooling{
+contract CarPooling is P2PPayment{
     uint public numpassenger;
     uint public rider;
 
